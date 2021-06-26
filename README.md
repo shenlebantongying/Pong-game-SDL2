@@ -7,3 +7,10 @@
 # Copy-Pasta
 
 <https://lazyfoo.net/tutorials/SDL/index.php>
+
+# Windows
+
++ setup vcpkg -> https://github.com/microsoft/vcpkg
++ add vcpkg to PATH
++ vcpkg install sdl2 sdl2_ttf
++ add cmake option `-DCMAKE_TOOLCHAIN_FILE=[path to vcpkg]/scripts/buildsystems/vcpkg.cmake`

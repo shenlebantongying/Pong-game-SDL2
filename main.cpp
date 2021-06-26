@@ -1,9 +1,9 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_ttf.h>
 #include <iostream>
+#include <string>
 
-/* TODO: CMAKE pkg-config
- * TODO: creepy font rendering
+/* TODO: creepy font rendering
  */
 
 const int SCREEN_WIDTH = 640;
