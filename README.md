@@ -8,9 +8,14 @@
 
 <https://lazyfoo.net/tutorials/SDL/index.php>
 
-# Windows
+# Windows/MSVC
 
 + setup vcpkg -> https://github.com/microsoft/vcpkg
 + add vcpkg to PATH
 + vcpkg install sdl2 sdl2_ttf
 + add cmake option `-DCMAKE_TOOLCHAIN_FILE=[path to vcpkg]/scripts/buildsystems/vcpkg.cmake`
+
+# Windows/mingw64/MSYS2
+
+`pacman -S mingw-w64-x86_64-SDL2 mingw-w64-x86_64-SDL2_ttf`
+
